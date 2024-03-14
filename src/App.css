@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App {
+    text-align: center;
+    margin: 50px auto 0px;
+    width: 90%;
+    max-width: 700px;
+    border-radius: 20px;
+    height: 470px;
+    padding: 20px 15px;
+    background: rgb(6, 138, 152);
+  }
+  
+  .search-engine {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
+  
+  .search-engine input {
+    width: 70%;
+    height: 45px;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 2px 15px;
+    font-size: 16px;
+    outline: none;
+    background-color: #ffffff;
+    color: #555555;
+  }
+  
+  .search-engine button {
+    border: none;
+    border-radius: 8px;
+    background-color: #000000;
+    color: #fff;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+    padding: 13px 15px;
+  }
+  
+  .city-name {
+    margin-bottom: 10px;
+  }
+  
+  .loading {
+    font-size: 60px;
+    font-weight: bolder;
+    color: #000;
+  }
+  
+  .date {
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .temp {
+    font-size: 64px;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .description{
+    color: #000000;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  
+  .weather-info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+/* 1 */
+
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .Search {
+    margin-bottom: 20px;
+  }
+  
+  .loading {
+    font-size: 20px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .city-name {
+    text-align: center;
+  }
+  
+  .city-name h2 {
+    font-size: 36px;
+    margin-bottom: 0;
+  }
+  
+  .city-name span {
+    font-size: 24px;
+    color: #888;
+  }
+  
+  .date {
+    text-align: center;
+    font-size: 20px;
+    color: #888;
+    margin-bottom: 30px;
+  }
+  
+  .temp {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .description {
+    text-align: center;
+    font-size: 24px;
+    color: #888;
+    /* margin-bottom: 40px; */
+  }
+  
+  .weather-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+  }
+  
+  .weather-info .column {
+    text-align: center;
+  }
+  
+  .weather-info .column div {
+    padding: 2px;
+    border-radius: 10px;
+    
+  }
+  
+  .weather-info .column p {
+    margin: 0;
+  }
+  
+  .weather-info .column .wind,
+  .weather-info .column .humidity,
+  .weather-info .column .sunrise {
+    font-size: 20px;
+    font-weight: bold;
+    /* margin-bottom: 10px; */
+    width: 150px;
+  }
+  
